@@ -1,0 +1,77 @@
+$bgColor: #fff;
+$ftColor: #222;
+$ftSize: 35px;
+.add-song {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 1099;
+	background: $bgColor;
+	
+	.header {
+		position: relative;
+		height: 60px;
+		text-align: center;
+		margin-top: 30px;
+		.title {
+			line-height: 60px;
+			font-size: 45px;
+			color: $ftColor;
+		}
+		.close {
+			position: absolute;
+			top: 0;
+			right: 8px;
+			.icon-close {
+				display: block;
+				padding: 12px;
+				font-size: 40px;
+				color: $ftColor;
+			}
+		}
+	}
+	.search-box-wrapper {
+		margin: 20px;
+	}
+	.shortcut {
+		
+		margin-top: 50px;
+		
+		.list-wrapper {
+			position: absolute;
+			top: 250px;
+			bottom: 0;
+			width: 100%;
+			
+			.list-scroll {
+				height: 100%;
+				overflow: hidden;
+				.list-inner {
+					padding: 20px 30px;
+				}
+			}
+		}
+	}
+	.search-result {
+		position: fixed;
+		top: 300px;
+		bottom: 0;
+		width: 100%;
+		
+	}
+	.tip-title {
+		text-align: center;
+		padding: 18px 0;
+		font-size: 0;
+		.icon-ok {
+			font-size: 30px;
+			color: $ftColor;
+			margin-right: 4px;
+		}
+		.text {
+			font-size: 35px;
+			color: $ftColor;
+		}
+	}
+}

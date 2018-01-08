@@ -1,0 +1,127 @@
+$bgColor: rgba(0,0,0,.75);
+$ftColor: #fff;
+
+.playlist {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 499;
+	size: 100%;
+	background-color: transparent;
+	
+	.list-wrapper {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: $bgColor;
+		z-index: 999;
+		
+		.list-header {
+			position: relative;
+			padding: 40px 30px 30px 20px;
+			z-index: 999;
+			.title {
+				display: flex;
+				align-items: center;
+				.icon {
+					margin-right: 10px;
+					font-size: 30px;
+					color: $ftColor;
+				}
+				.text {
+					flex: 1;
+					font-size: 35px;
+					color: $ftColor;
+				}
+				
+				.clear {
+					.icon-clear {
+						font-size: 30px;
+						color: $ftColor;
+					}
+				}
+			}
+		}
+		.list-content {
+			max-height: 640px;
+			overflow: hidden;
+			position: relative;
+			z-index: 999;
+			.item {
+				size: 90% 60px;
+				display: flex;
+				align-items: center;
+				margin: 0 auto;
+				padding: 10px 40px 10px 10px;
+				overflow: hidden;
+				
+				.current {
+					flex: 0 0 20px;
+					width: 20px;
+					font-size: 35px;
+					color: $ftColor;
+				}
+				.text {
+					flex: 1;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					font-size: 35px;
+					color: $ftColor;
+				}
+				.active{
+					color: #87CEEB;
+				}
+				.like {
+					margin-right: 15px;
+					font-size: 35px;
+					color: $ftColor;
+					.icon-favorite {
+						color: $ftColor;
+					}
+				}
+				.delete {
+					font-size: 35px;
+					color: $ftColor;
+					.icon-delete{
+						
+					}
+				}
+			}
+			.item:last-child{
+				border: none;
+			}
+		}
+		.list-operate {
+			width: 340px;
+			margin: 20px auto 30px auto;
+			position: relative;
+			z-index: 999;
+			.add {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 8px 16px;
+				border: 1px solid $ftColor;
+				border-radius: 100px;
+				color: $ftColor;
+				.icon-add {
+					margin-right: 5px;
+					font-size: 30px;
+				}
+				.text {
+					font-size: 35px;
+				}
+			}
+		}
+		.list-close {
+			text-align: center;
+			padding: 42.5px 0;
+			background-color: #222;
+			font-size: 40px;
+			color: $ftColor;
+		}
+	}
+}

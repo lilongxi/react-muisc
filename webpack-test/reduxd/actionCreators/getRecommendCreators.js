@@ -1,0 +1,5 @@
+//getRecommend
+export const REQUEST_RECOMMEND = 'REQUEST_RECOMMEND';
+export const RECEIVE_RECOMMEND = 'RECEIVE_RECOMMEND';
+export const FAIL_RECOMMEND = 'FAIL_RECOMMEND';
+

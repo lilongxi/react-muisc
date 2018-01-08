@@ -1,0 +1,4 @@
+
+export const REQUEST_HOTKEY = 'REQUEST_HOTKEY';
+export const RECEIVE_HOTKEY = 'RECEIVE_HOTKEY';
+export const FAIL_HOTKEY = 'FAIL_HOTKEY';

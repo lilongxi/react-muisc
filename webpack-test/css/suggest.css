@@ -1,0 +1,47 @@
+.suggest {
+	height: 100%;
+	overflow: hidden;
+	.suggest-list {
+		padding: 0 30px;
+	
+		.suggest-item {
+			display: flex;
+			align-items: center;
+			padding-bottom: 40px;
+			
+		}
+		
+		.suggest-nomore{
+			justify-content: center;
+			font-size: 40px;
+		}
+		
+		.icon {
+			flex: 0 0 30px;
+			width: 30px;
+			font-size: 30px;
+			color: #222;
+			padding-right: 30px;
+		}
+		.name {
+			flex: 1;
+			font-size: 35px;
+			color: #222;
+			overflow: hidden;
+			.text {
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
+	}
+}
+
+/*.suggest-result {
+		position: fixed;
+		width: 100%;
+		top: 660px;
+		bottom: 0;
+		border: 1px solid red;
+		box-sizing: border-box;
+	}*/

@@ -1,0 +1,24 @@
+.progress-circle{
+	position: relative;
+	right: 25px;
+	svg{
+		width: 90px;
+		height: 90px;
+	}
+    circle{
+    		  stroke-width: 8px;
+	      transform-origin: center;
+	      &.progress-background{
+	      	transform: scale(0.9);
+	        stroke: #222;
+	      }
+	        
+	      &.progress-bar{
+	      	transform: scale(0.9) rotate(-90deg);
+	        stroke: #fff;
+	      }
+	        
+    }
+      
+}
+    

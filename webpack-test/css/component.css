@@ -1,0 +1,57 @@
+$marginPart:30px;
+$widthPart:750px;
+
+
+.listview{
+	position: fixed;
+	top: 178px;
+	bottom: 0;
+	left: 0;
+	size: 100%;
+	overflow: hidden;
+	
+	& .partside {
+	size: 100% auto;
+	color: #000000;
+	font-family: "arial, helvetica, sans-serif";
+	margin-top: $marginPart;
+	
+	h3 {
+		size: auto;
+		text-align: center;
+		font-size: 35px;
+		font-weight: 200;
+		padding: 20px 0;
+	}
+	.partul {
+		size: 95% 100%;
+		overflow: hidden;
+		margin: 0 auto;
+		.partli {
+			size: 100%;
+			.partimg {
+				size: 25%;
+				display: inline-block;
+				vertical-align: top;
+				img {
+					size: 100%;
+				}
+			}
+			.partcontent {
+				size: 75% 25%;
+				display: inline-block;
+				vertical-align: top;
+				p:nth-child(1) {
+					font-size: 35px;
+					padding: 5px;
+				}
+				p:nth-child(2) {
+					font-size: 30px;
+					padding: 5px;
+				}
+			}
+		}
+	}
+}
+	
+}

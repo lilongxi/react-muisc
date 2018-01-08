@@ -1,0 +1,22 @@
+.switches{
+	display: flex;
+    align-items: center;
+    width: 480px;
+    margin: 0 auto;
+    border: 1px solid #222;
+    border-radius: 10px;
+    overflow: hidden;
+    .switch-item{
+    	  flex: 1;
+      padding: 15px;
+      text-align: center;
+      font-size: 30px;
+      color: #222;
+      &.active{
+      	background: #222;
+        color: #fff;
+      }
+    }
+      
+}
+    

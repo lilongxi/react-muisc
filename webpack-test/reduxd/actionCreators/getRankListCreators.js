@@ -1,0 +1,15 @@
+/*
+ * 异步获取排行榜数据
+ */
+
+export const REQUEST_RANKLIST = 'REQUEST_RANKLIST';
+export const RECEIVE_RANKLIST = 'RECEIVE_RANKLIST';
+export const FAIL_RANKLIST = 'FAIL_RANKLIST';
+
+/*
+ * 一步获取排行榜歌单详情
+ */
+
+export const REQUEST_RANKLIST_DETAIL = 'REQUEST_RANKLIST_DETAIL';
+export const RECEIVE_RANKLIST_DETAIL = 'RECEIVE_RANKLIST_DETAIL';
+export const FAIL_RANKLIST_DETAIL = 'FAIL_RANKLIST_DETAIL';

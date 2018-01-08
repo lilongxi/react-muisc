@@ -1,0 +1,40 @@
+.progress-bar{
+	size: 90% 50px;
+	margin: 0 auto;
+	
+    .bar-inner{
+    	  position: relative;
+      top: 20px;
+      left: 12px;
+      height: 8px;
+      background: rgba(0, 0, 0, 0.3);
+      .progress{
+      	 position: absolute;
+        	 height: 100%;
+        	 background: #fff;
+      }
+       
+      .progress-btn-wrapper{
+      	position: absolute;
+        left: -8px;
+        top: -13px;
+        width: 35px;
+        height: 35px;
+        .progress-btn{
+        		position: relative;
+          top: 1.5px;
+          left: 5px;
+          box-sizing: border-box;
+          width: 35px;
+          height: 35px;
+          border: 6px solid #87CEEB;
+          border-radius: 50%;
+          background: #fff;
+        }
+          
+      }
+        
+    }
+     
+}
+    
